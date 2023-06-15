@@ -1,0 +1,236 @@
+#hero_bg{
+  position: relative;
+  width: 1960px;
+  height: 1080px;
+  background-color: #1B064B; ;
+}
+#blob_purp{
+  position: absolute;
+  height: 461px;
+  left: -6.09%;
+  right: 76.72%;
+  top: -104px;
+  background: linear-gradient(147.93deg, #7209B7 17.37%, #3A0CA3 92.75%);
+  border-radius:50%;
+}
+#blob_blue{
+  position: absolute;
+  height: 269px;
+  left: 87.66%;
+  right: -0.23%;
+  top: 705px;
+  background: linear-gradient(145.11deg, #4CC9F0 0%, #4895EF 79.25%);
+  border-radius: 50%;
+  
+}
+#hero-sec{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 228px 0px;
+  gap: 32px;
+
+  position: relative;
+  width: 1922px;
+  height: 1080px;
+
+  background: rgba(29, 14, 63, 0.2);
+  backdrop-filter: blur(21.5px);
+}
+
+.hero-box{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  width: 1466px;
+  height: 245.03px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.hero-txt{
+  width: 1456.49px;
+  height: 153px;
+  font-family: 'Heebo', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 80px;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.hero-body{
+  width: 1450px;
+  height: 25px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.563rem;
+  text-align: center;
+  color: #FFFEFE;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+#my-name{
+  width: 1456px;
+  height: 153px;
+
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 5rem;
+
+  text-align: center;
+  color: #F72585;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.body{
+  background-color: #F4E3FF;
+}
+.about-me{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 228px 30px;
+  gap: 8px;
+  isolation: isolate;
+
+  position: absolute;
+  height: 944px;
+  left: -2px;
+  right: 0px;
+  top: 1080px;
+}
+.wave-purple{
+  position: absolute;
+  width: 1979px;
+  height: 621px;
+  left: -14px;
+  top: 274px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+.wave-pink{
+  position: absolute;
+  width: 1936px;
+  height: 596px;
+  right: 0px;
+  top: 348px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 1;
+}
+.wave-ball{
+  position: absolute;
+  width: 92px;
+  height: 91px;
+  left: 164px;
+  top: 274px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
+}
+.about-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 35.7059px;
+  gap: 40px;
+
+  width: 964px;
+  height: 406px;
+
+  background: rgba(20, 8, 48, 0.5);
+  border: 0.5px solid #FFDBEB;
+  box-shadow: 0px 14px 43px rgba(58, 12, 163, 0.5);
+  backdrop-filter: blur(40.727px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 12px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  z-index: 3;
+}
+
+.about-copy{
+  width: 892.59px;
+  height: 80px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #F4E3FF;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.about-heading-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 19.53px;
+  width: 892.59px;
+  height: 62px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.about-copy-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 37.88px;
+
+  width: 892.59px;
+  height: 80px;
+
+  border-radius: 11.8369px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.about-header{
+  width: 214px;
+  height: 62px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.052rem;
+  line-height: 3.813rem;
+  background: linear-gradient(145.11deg, #4CC9F0 0%, #4895EF 79.25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+}
